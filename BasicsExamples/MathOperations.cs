@@ -10,7 +10,6 @@ namespace Operations
             Console.WriteLine("Please enter the first value:");
             int value1 = Int32.Parse(Console.ReadLine());
 
-
             Console.WriteLine("Please enter the second value:");
             int value2 = Int32.Parse(Console.ReadLine());
 
