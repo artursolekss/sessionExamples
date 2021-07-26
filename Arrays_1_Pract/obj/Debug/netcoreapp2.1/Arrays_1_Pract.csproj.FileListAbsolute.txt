@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\bin\Debug\netcoreapp2.1\Arrays_1_Pract.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\bin\Debug\netcoreapp2.1\Arrays_1_Pract.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\bin\Debug\netcoreapp2.1\Arrays_1_Pract.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\bin\Debug\netcoreapp2.1\Arrays_1_Pract.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\bin\Debug\netcoreapp2.1\Arrays_1_Pract.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\obj\Debug\netcoreapp2.1\Arrays_1_Pract.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\obj\Debug\netcoreapp2.1\Arrays_1_Pract.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\obj\Debug\netcoreapp2.1\Arrays_1_Pract.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\obj\Debug\netcoreapp2.1\Arrays_1_Pract.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\obj\Debug\netcoreapp2.1\Arrays_1_Pract.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Arrays_1_Pract\obj\Debug\netcoreapp2.1\Arrays_1_Pract.pdb

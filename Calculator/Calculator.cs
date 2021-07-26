@@ -19,6 +19,17 @@ public class Calculator
     //     result = var1 + var2;
     // }
 
+    // public static void Increment(double var)///in this case, the variable passed to the method will not be changed
+    // {
+    //     var = var + 1;
+    // }
+
+    public static void Increment(ref double var)///in this case, the variable passed to the method will be changed
+    {
+        var = var + 1;
+    }
+
+
     public static void Sum(double var1, double var2, out double result)
     {
         result = var1 + var2;
@@ -51,25 +62,27 @@ public class Calculator
         }
 
         inputCorrect = false;//re-initialize the flag variable
-        while (!inputCorrect)
+        do///don't have any logical check, so the block of code will always be executed
         {
             Console.WriteLine("Enter value 2:");
             if (Double.TryParse(Console.ReadLine(), out value2))
                 inputCorrect = true;
             else
                 PrintErrorMesage();
-        }
+        } while (!inputCorrect);
 
         double result;
         char operation = ' ';
 
-        inputCorrect = false;
-        while (!inputCorrect)
+        // inputCorrect = false;
+        // while (!inputCorrect)
+        while (true)
         {
             Console.WriteLine("Enter the operation (* - multiplication, / - division, + - addition, - - subtract, % - modulo)");
             operation = Char.Parse(Console.ReadLine());
             if (ValidateOperator(operation))
-                inputCorrect = true;
+                // inputCorrect = true;
+                break;///STOP THE LOOP
             else
                 PrintErrorMesage();
         }
