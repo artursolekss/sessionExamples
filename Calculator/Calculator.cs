@@ -37,30 +37,41 @@ public class Calculator
 
     static void Main(string[] args)
     {
-        double value1, value2;
+        double value1 = 0, value2 = 0;
 
-        Console.WriteLine("Enter value 1:");
-        if (!Double.TryParse(Console.ReadLine(), out value1))
+        bool inputCorrect = false;
+
+        while (!inputCorrect)
         {
-            PrintErrorMesage();
-            return;
+            Console.WriteLine("Enter value 1:");
+            if (Double.TryParse(Console.ReadLine(), out value1))
+                inputCorrect = true;
+            else
+                PrintErrorMesage();
         }
 
-        Console.WriteLine("Enter value 2:");
-        if (!Double.TryParse(Console.ReadLine(), out value2))
+        inputCorrect = false;//re-initialize the flag variable
+        while (!inputCorrect)
         {
-            PrintErrorMesage();
-            return;
+            Console.WriteLine("Enter value 2:");
+            if (Double.TryParse(Console.ReadLine(), out value2))
+                inputCorrect = true;
+            else
+                PrintErrorMesage();
         }
 
-        Console.WriteLine("Enter the operation (* - multiplication, / - division, + - addition, - - subtract, % - modulo");
-        char operation = Char.Parse(Console.ReadLine());
         double result;
+        char operation = ' ';
 
-        if (!ValidateOperator(operation))
+        inputCorrect = false;
+        while (!inputCorrect)
         {
-            PrintErrorMesage();
-            return;
+            Console.WriteLine("Enter the operation (* - multiplication, / - division, + - addition, - - subtract, % - modulo)");
+            operation = Char.Parse(Console.ReadLine());
+            if (ValidateOperator(operation))
+                inputCorrect = true;
+            else
+                PrintErrorMesage();
         }
 
         switch (operation)
