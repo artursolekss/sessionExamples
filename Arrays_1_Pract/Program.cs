@@ -18,6 +18,7 @@ namespace Arrays_1_Pract
             {
                 Console.WriteLine("Enter the element of the array");
                 int elementInput;
+                // Int32.Parse()/ --does not check if the parsing is sucessfull or not
                 if (!Int32.TryParse(Console.ReadLine(), out elementInput))
                     break;
                 else
