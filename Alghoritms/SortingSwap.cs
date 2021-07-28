@@ -50,8 +50,8 @@ class Sorting
         // int key = myArray[0];
         for (int i = 0; i < myArray.Length; i++)
         {
-            for (int j = 0; j < myArray.Length - i - 1; j++)
-                if (myArray[j] > myArray[j + 1])
+            for (int j = 0; j < myArray.Length - i - 1; j++)///myArray.Length - (myArray.Length - 1) - 1 = 0///the last iteration
+                if (myArray[j] > myArray[j + 1])///change to myArray[j] < myArray[j + 1]) to sort in descending order
                 {
                     //Swap
                     int key = myArray[j];
