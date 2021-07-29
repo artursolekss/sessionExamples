@@ -1,21 +1,26 @@
-using System;
+﻿using System;
 
-class Sorting
+namespace Recursion
 {
-
-
-    static void Main(string[] args)
+    class Program
     {
+        static void Main(string[] args)
+        {
+            int[] myArray = null;
+            int numberElements = 0;
+            EnterArrayValue(ref myArray, ref numberElements);
+            PrintArray(myArray);
 
-        int[] myArray = null;
-        int numberElements = 0;
-        while (true)
+        }
+
+
+        public static void EnterArrayValue(ref int[] myArray, ref int numberElements)
         {
             Console.WriteLine("Enter the element of the array");
             int elementInput;
             // Int32.Parse()/ --does not check if the parsing is sucessfull or not
             if (!Int32.TryParse(Console.ReadLine(), out elementInput))
-                break;
+                return;
             else
             {
                 if (myArray != null)///it means that it is not the first element we add
@@ -29,39 +34,14 @@ class Sorting
 
                 myArray[(numberElements - 1)] = elementInput;///add the last element
             }
+            EnterArrayValue(ref myArray, ref numberElements);
         }
-        PrintArray(Sort(myArray));
 
-
-    }
-
-    public static void PrintArray(int[] arr)
-    {
-        Console.Write("\n");
-        foreach (int element in arr)
-            Console.Write(element + " ");
-    }
-    public static int[] Sort(int[] L)
-    {
-        // int[] L1 = new int[L.Length];
-        // L.CopyTo(L1,0);
-        int[] L1 = (int[])L.Clone();
-
-        for (int i = 0; i < L1.Length; i++)
+        public static void PrintArray(int[] arr)
         {
-            int x = L1[i];
-            int j = i;
-            while (j > 0 && L1[j - 1] > x)
-            {
-                L1[j] = L1[j - 1];
-                // j = j - 1; the same as j--
-                j--;
-            }
-            L1[j] = x;
+            Console.Write("\n");
+            foreach (int element in arr)
+                Console.Write(element + " ");
         }
-
-        return L1;
-
     }
-
 }

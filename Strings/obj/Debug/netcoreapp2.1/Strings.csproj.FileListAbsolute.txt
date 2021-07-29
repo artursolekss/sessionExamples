@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\bin\Debug\netcoreapp2.1\Strings.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\bin\Debug\netcoreapp2.1\Strings.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\bin\Debug\netcoreapp2.1\Strings.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\bin\Debug\netcoreapp2.1\Strings.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\bin\Debug\netcoreapp2.1\Strings.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\obj\Debug\netcoreapp2.1\Strings.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\obj\Debug\netcoreapp2.1\Strings.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\obj\Debug\netcoreapp2.1\Strings.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\obj\Debug\netcoreapp2.1\Strings.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\obj\Debug\netcoreapp2.1\Strings.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Strings\obj\Debug\netcoreapp2.1\Strings.pdb
