@@ -30,38 +30,37 @@ class Sorting
                 myArray[(numberElements - 1)] = elementInput;///add the last element
             }
         }
+        PrintArray(Sort(myArray));
 
 
     }
 
-    public int[] Sorting(int[] L)
+    public static void PrintArray(int[] arr)
     {
-
-        int[] L1 = new int[L.Length];
-
-
+        Console.Write("\n");
+        foreach (int element in arr)
+            Console.Write(element + " ");
     }
 
-    public void addElement(int element, ref int[] L1)
+    public static int[] Sort(int[] L)
     {
+
+        int[] L1 = (int[])L.Clone();
+
         for (int i = 0; i < L1.Length; i++)
         {
-            if (element < L1[i])
+            int x = L1[i];
+            int j = i;
+            while (j > 0 && L1[j - 1] > x)
             {
-                L1[i] = element;
+                L1[j] = L1[j - 1];
+                j = j - 1;
             }
+            L1[j] = x;
         }
-    }
 
-    public void shiftToRight(int startPos, ref int[] L1)
-    {
-        /// 3 4 5 6 7
- 
-        for (int i = L1.Length; i > startPos; i--)
-            L1[i] = L1[i - 1];
+        return L1;
 
     }
-
-
 
 }

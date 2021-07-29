@@ -1,6 +1,6 @@
 using System;
 
-class Sorting
+class SortingSwap
 {
 
 
@@ -11,11 +11,15 @@ class Sorting
         int numberElements = 0;
         while (true)
         {
-            Console.WriteLine("Enter the element of the array");
+            Console.WriteLine("Enter the element of the array or press enter to finish the input");
             int elementInput;
             // Int32.Parse()/ --does not check if the parsing is sucessfull or not
-            if (!Int32.TryParse(Console.ReadLine(), out elementInput))
+            string inputContent = Console.ReadLine();
+            if (inputContent.Equals(""))
                 break;
+
+            if (!Int32.TryParse(inputContent, out elementInput))
+                Console.WriteLine("Incorrect input");
             else
             {
                 if (myArray != null)///it means that it is not the first element we add
@@ -31,23 +35,27 @@ class Sorting
             }
         }
 
-/// 3 54 -2 73 18 20 -8
+        /// 3 54 -2 73 18 20 -8
 
-///1.iteration - 3 -2 54 18 20 -8 73 (after the first iteration we always know the largest
-                                      /// element will be positioned at he last position) 
-///2.iteration - -2 3 18 20 -8 54 73 (after the second iteration we always know 2 largest
-                                      /// elements will be positioned at the 2 last positions)   
-///3.iteration - -2 3 18 -8 20 54 73 (after the third iteration we always know 3 largest
-                                      /// elements will be positioned at the 3 last positions)
-///4.iteration - -2 3 -8 18 20 54 73 (after the fourth iteration we always know 4 largest
-                                      /// elements will be positioned at the 4 last positions) 
-///5.iteration - -2 -8 3 18 20 54 73 (after the fifth iteration we always know 5 largest
-                                      /// elements will be positioned at the 5 last positions)  
-///6.iteration - -8 -2 3 18 20 54 73 (after the sixth iteration all the elements will be sorted)                                                                                      
+        ///1.iteration - 3 -2 54 18 20 -8 73 (after the first iteration we always know the largest
+        /// element will be positioned at he last position) 
+        ///2.iteration - -2 3 18 20 -8 54 73 (after the second iteration we always know 2 largest
+        /// elements will be positioned at the 2 last positions)   
+        ///3.iteration - -2 3 18 -8 20 54 73 (after the third iteration we always know 3 largest
+        /// elements will be positioned at the 3 last positions)
+        ///4.iteration - -2 3 -8 18 20 54 73 (after the fourth iteration we always know 4 largest
+        /// elements will be positioned at the 4 last positions) 
+        ///5.iteration - -2 -8 3 18 20 54 73 (after the fifth iteration we always know 5 largest
+        /// elements will be positioned at the 5 last positions)  
+        ///6.iteration - -8 -2 3 18 20 54 73 (after the sixth iteration all the elements will be sorted)                                                                                      
 
 
 
+        ///Time =   3 * (myArray.Length -1 + myArray.Length - 2 + myArray.Length - 3 ... + 1 + 0) < 
+        // 3 * myArray.Length * (myArray.Length -1) < 3 * myArray.Length^2 = Const * myArray.Length^2 => Const * n^2; = O(n^2)  
+        //it means that there exist such number n_0 that for each n > n_0 Time < Const * n ^2
         // int key = myArray[0];
+
         for (int i = 0; i < myArray.Length; i++)
         {
             for (int j = 0; j < myArray.Length - i - 1; j++)///myArray.Length - (myArray.Length - 1) - 1 = 0///the last iteration
@@ -61,6 +69,7 @@ class Sorting
 
         }
 
+        Console.WriteLine("Sorted array:");
         foreach (int element in myArray)
             Console.Write(element + " ");
 
