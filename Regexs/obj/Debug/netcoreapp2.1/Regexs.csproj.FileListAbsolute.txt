@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\obj\Debug\netcoreapp2.1\Regexs.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\obj\Debug\netcoreapp2.1\Regexs.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\obj\Debug\netcoreapp2.1\Regexs.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\obj\Debug\netcoreapp2.1\Regexs.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\bin\Debug\netcoreapp2.1\Regexs.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\bin\Debug\netcoreapp2.1\Regexs.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\bin\Debug\netcoreapp2.1\Regexs.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\bin\Debug\netcoreapp2.1\Regexs.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\bin\Debug\netcoreapp2.1\Regexs.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\obj\Debug\netcoreapp2.1\Regexs.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Regexs\obj\Debug\netcoreapp2.1\Regexs.pdb
