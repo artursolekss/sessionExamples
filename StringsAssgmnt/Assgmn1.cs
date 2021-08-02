@@ -5,22 +5,23 @@ namespace StringsAssgmnt
 {
     class Assgmn1
     {
-       public static void Main()  
-        {  
+        public static void Main()
+        {
             string userInput;
-    	    Console.Write("Input the string : ");
-    	    userInput = Console.ReadLine();
-   	        Console.Write("The string you entered is : {0}\n", userInput);
+            Console.Write("Input the string : ");
+            userInput = Console.ReadLine();
+            Console.Write("The string you entered is : {0}\n", userInput);
             int count = 0;
             foreach (char element in userInput)
             {
-              if(Char.IsLetter(element))
-            // if(Regex.IsMatch(userInput,"[a-zA-Z]"))
-                count++;
-            }   
+                if (Char.IsLetter(element))
+                    // if(Regex.IsMatch(userInput,"[a-zA-Z]"))
+                    count++;
+            }
             Console.WriteLine("The length of the string is " + count);
 
-            for (int i = userInput.Length-1; i >= 0; i--){
+            for (int i = userInput.Length - 1; i >= 0; i--)
+            {
                 Console.Write(userInput[i]);
             }
 
@@ -28,12 +29,13 @@ namespace StringsAssgmnt
             string[] wordsInString = userInput.Split(" ");
 
             int countWords = wordsInString.Length;
-            foreach(string word in wordsInString){
-                if(Regex.IsMatch(word,"^[0-9]+$") ||//
-                Regex.IsMatch(word,"[0-9]+\\.[0-9]+$"))
-                  countWords--;
+            foreach (string word in wordsInString)
+            {
+                if (Regex.IsMatch(word, "^[0-9]+$") ||//[0-9]{2}
+                Regex.IsMatch(word, "[0-9]+\\.[0-9]+$"))///^[a-zA-Z]+$
+                    countWords--;
             }
-            
+
             Console.WriteLine("There are " + countWords + " words in the string");
         }
 
