@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\bin\Debug\netcoreapp2.1\OOP_Intro.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\bin\Debug\netcoreapp2.1\OOP_Intro.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\bin\Debug\netcoreapp2.1\OOP_Intro.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\bin\Debug\netcoreapp2.1\OOP_Intro.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\bin\Debug\netcoreapp2.1\OOP_Intro.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\obj\Debug\netcoreapp2.1\OOP_Intro.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\obj\Debug\netcoreapp2.1\OOP_Intro.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\obj\Debug\netcoreapp2.1\OOP_Intro.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\obj\Debug\netcoreapp2.1\OOP_Intro.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\obj\Debug\netcoreapp2.1\OOP_Intro.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOP_Intro\obj\Debug\netcoreapp2.1\OOP_Intro.pdb
