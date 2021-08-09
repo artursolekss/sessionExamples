@@ -6,7 +6,8 @@ namespace OOP_Intro
     {
         static void Main(string[] args)
         {
-            Car myCar1 = new Car("Black", 2016, "M1", "Tesla");
+            Car myCar1 =
+            new Car("Black", 2016, "M1", "Tesla");
             Car myCar3 = new Car();///cannot be done, if there is no unparametrised constructor defined
 
             // myCar1.SetMyProperties("Black", 2016, "M1", "Tesla");
