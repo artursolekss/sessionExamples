@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\bin\Debug\netcoreapp2.1\Assigmn1.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\bin\Debug\netcoreapp2.1\Assigmn1.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\bin\Debug\netcoreapp2.1\Assigmn1.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\bin\Debug\netcoreapp2.1\Assigmn1.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\bin\Debug\netcoreapp2.1\Assigmn1.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\obj\Debug\netcoreapp2.1\Assigmn1.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\obj\Debug\netcoreapp2.1\Assigmn1.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\obj\Debug\netcoreapp2.1\Assigmn1.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\obj\Debug\netcoreapp2.1\Assigmn1.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\obj\Debug\netcoreapp2.1\Assigmn1.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\Assigmn1\obj\Debug\netcoreapp2.1\Assigmn1.pdb

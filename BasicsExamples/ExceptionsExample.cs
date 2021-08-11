@@ -41,7 +41,7 @@ public class ExceptionsExample
         {
             int zero = 0;
             int result = 4 / zero;
-            arr[6] = 8;
+            arr[6] = 8;///this line will NOT BE TRIGERRED!
         }
         catch (IndexOutOfRangeException)//this catch will ONLY CATCH IndexOutOfRangeException
         {
