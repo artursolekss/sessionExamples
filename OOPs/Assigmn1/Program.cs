@@ -86,6 +86,13 @@ namespace Assigmn1
             myNewOfficer.WorkingDistrict = "Test district";
             Console.WriteLine("Working district repeat " + myNewOfficer.WorkingDistrict);
 
+            Disctrict disctrict = new Disctrict(3);
+            disctrict.addOfficerToDistrict(myNewOfficer);
+            disctrict.addOfficerToDistrict(officer2);
+            disctrict.addOfficerToDistrict(officer1);
+            disctrict.removeOfficerFromDistrict(officer2);
+            Console.WriteLine(disctrict.getNumberOfOfficerInDistrict());
+
         }
 
     }
