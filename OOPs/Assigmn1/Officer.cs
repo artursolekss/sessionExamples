@@ -5,8 +5,12 @@ namespace Assigmn1
 
     public class Officer
     {
-
         private string name, surname, workingDistrict;
+        public string WorkingDistrict
+        {
+            get { return workingDistrict; }
+            set { this.workingDistrict = value; }
+        }
         private int officerID, crimesSolved;
 
         public Officer()

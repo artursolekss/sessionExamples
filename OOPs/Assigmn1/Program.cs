@@ -25,7 +25,6 @@ namespace Assigmn1
             Officer officer3 = new Officer("John", "Oliverio", "Disctrict 1", 8723232, 38);
             Console.WriteLine(officer3);
 
-
             Officer[] District99 = new Officer[4];
             District99[0] = officer1;
             District99[1] = officer2;
@@ -83,6 +82,10 @@ namespace Assigmn1
 
             District99[3] = myNewOfficer;
             Console.WriteLine(myNewOfficer);
+
+            myNewOfficer.WorkingDistrict = "Test district";
+            Console.WriteLine("Working district repeat " + myNewOfficer.WorkingDistrict);
+
         }
 
     }
