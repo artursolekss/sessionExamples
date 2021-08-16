@@ -1,48 +1,55 @@
 using System;
-
+using System.Collections;
+using System.Collections.Generic;
 namespace Assigmn1
 {
     class Disctrict
     {
-        Officer[] officersInDistrict;
-        private int lastIndexOfficer = -1;
+        // private Officer[] officersInDistrict;
+        // private ArrayList officersInDistrict = new ArrayList();
+        private LinkedList<Officer> officersInDistrict = new LinkedList<Officer>();
+        // private int lastIndexOfficer = -1;
 
-        public Disctrict(int numberOfOfficer)
-        {
-            this.officersInDistrict = new Officer[numberOfOfficer];
-        }
+        // public Disctrict(int numberOfOfficer)
+        // {
+        //     this.officersInDistrict = new Officer[numberOfOfficer];
+        // }
 
         public void addOfficerToDistrict(Officer officer)
         {
-            if (lastIndexOfficer == this.officersInDistrict.Length - 1)
-            {
-                Console.WriteLine("No more officers can be added");
-                return;
-            }
+            // this.officersInDistrict.Add(officer);//this is for ArrayList
+            this.officersInDistrict.AddLast(officer);///this is for LinkedList
+            // if (lastIndexOfficer == this.officersInDistrict.Length - 1)
+            // {
+            //     Console.WriteLine("No more officers can be added");
+            //     return;
+            // }
 
-            this.lastIndexOfficer++;
-            this.officersInDistrict[this.lastIndexOfficer] = officer;
+            // this.lastIndexOfficer++;
+            // this.officersInDistrict[this.lastIndexOfficer] = officer;
 
         }
 
         public void removeOfficerFromDistrict(Officer officer)
         {
-            int position = -1;
-            foreach (Officer officerInDistrict in officersInDistrict)
-            {
-                position++;
-                if (officerInDistrict == officer)
-                {
-                    if (position != this.officersInDistrict.Length - 1)
-                        Array.Copy(officersInDistrict, position + 1,
-                         officersInDistrict, position, officersInDistrict.Length - position - 1);///shifting to right
+            // this.officersInDistrict.Remove(officer);/// THIS IS FOR ARRAY LIST
+            this.officersInDistrict.Remove(officer);//THIS IS FOR LINKED LIST
+            // int position = -1;
+            // foreach (Officer officerInDistrict in officersInDistrict)
+            // {
+            //     position++;
+            //     if (officerInDistrict == officer)
+            //     {
+            //         if (position != this.officersInDistrict.Length - 1)
+            //             Array.Copy(officersInDistrict, position + 1,
+            //              officersInDistrict, position, officersInDistrict.Length - position - 1);///shifting to right
 
-                    this.officersInDistrict[this.lastIndexOfficer] = null;///no reference to the object placed under the element of the array
-                    this.lastIndexOfficer--;
-                    return;
-                }
-            }
-            Console.WriteLine("Officer does not exist in the district");
+            //         this.officersInDistrict[this.lastIndexOfficer] = null;///no reference to the object placed under the element of the array
+            //         this.lastIndexOfficer--;
+            //         return;
+            //     }
+            // }
+            // Console.WriteLine("Officer does not exist in the district");
         }
 
         public int getNumberOfOfficerInDistrict()
@@ -59,7 +66,8 @@ namespace Assigmn1
             // }
             // return count;
 
-            return this.lastIndexOfficer + 1;
+            // return this.lastIndexOfficer + 1;
+            return this.officersInDistrict.Count;
         }
 
         public float calculateAvgLevelInDistrict()

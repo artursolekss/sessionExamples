@@ -5,6 +5,9 @@ namespace Assigmn1
 
     public class Officer
     {
+
+        private Officer previousOfficer;///the reference to the previous officer in the list is stored here
+        private Officer nextOfficer;///the reference to the next officer in the list is stored here
         private string name, surname, workingDistrict;
         public string WorkingDistrict
         {
@@ -16,6 +19,57 @@ namespace Assigmn1
         public Officer()
         {
             ///No-argument constructor
+        }
+
+        public Officer getNext()
+        {
+            return this.nextOfficer;
+        }
+
+        public Officer getPrevious()
+        {
+            return this.previousOfficer;
+        }
+
+        public void removeOfficer()//remove the current officer from the list
+        {
+            this.previousOfficer.nextOfficer = this.nextOfficer;
+            this.nextOfficer.previousOfficer = this.previousOfficer;
+        }
+
+        public void addOfficer(Officer officer)
+        {
+            if (this.nextOfficer != null)
+            {
+                this.nextOfficer.previousOfficer = officer;
+            }
+
+            officer.nextOfficer = this.nextOfficer;
+            this.nextOfficer = officer;
+            officer.previousOfficer = this;
+
+        }
+
+        public void addOfficerAtStart(Officer officer)
+        {
+            if (this.previousOfficer == null)
+            {
+                this.previousOfficer = officer;
+                officer.nextOfficer = this.previousOfficer;
+            }
+            else
+                officer.addOfficerAtStart(officer);
+        }
+
+        public void addOfficerAtTheEnd(Officer officer)
+        {
+            if (this.nextOfficer == null)
+            {
+                this.nextOfficer = officer;
+                officer.previousOfficer = this;//for the next officer in the list, the previous one will be the current one
+            }
+            else
+                this.nextOfficer.addOfficerAtTheEnd(officer);
         }
 
         //Parameterized constructor

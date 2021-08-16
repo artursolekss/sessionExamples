@@ -86,7 +86,8 @@ namespace Assigmn1
             myNewOfficer.WorkingDistrict = "Test district";
             Console.WriteLine("Working district repeat " + myNewOfficer.WorkingDistrict);
 
-            Disctrict disctrict = new Disctrict(3);
+            // Disctrict disctrict = new Disctrict(3);
+            Disctrict disctrict = new Disctrict();
 
             disctrict.addOfficerToDistrict(myNewOfficer);
             disctrict.addOfficerToDistrict(officer2);
@@ -95,6 +96,26 @@ namespace Assigmn1
             Console.WriteLine(disctrict.getNumberOfOfficerInDistrict());
 
             Console.WriteLine(disctrict.calculateAvgLevelInDistrict());
+
+
+            //Below the concept of the linked list is shown
+            /// Create something similiar to Linked list
+            officer1.addOfficer(officer2);
+            officer1.addOfficer(myNewOfficer);
+            officer1.addOfficer(officer3);
+
+            ///Print all the officer from our own "Linked list"
+            Console.WriteLine("Printing the officers from our Linked List");
+            int count = 0;
+            Officer currentOfficer = officer1;
+            count++;
+            Console.WriteLine(currentOfficer);
+            while (currentOfficer.getNext() != null)
+            {
+                currentOfficer = currentOfficer.getNext();
+                Console.WriteLine(currentOfficer);
+                count++;
+            }
 
         }
 
