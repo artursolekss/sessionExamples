@@ -87,11 +87,14 @@ namespace Assigmn1
             Console.WriteLine("Working district repeat " + myNewOfficer.WorkingDistrict);
 
             Disctrict disctrict = new Disctrict(3);
+
             disctrict.addOfficerToDistrict(myNewOfficer);
             disctrict.addOfficerToDistrict(officer2);
             disctrict.addOfficerToDistrict(officer1);
             disctrict.removeOfficerFromDistrict(officer2);
             Console.WriteLine(disctrict.getNumberOfOfficerInDistrict());
+
+            Console.WriteLine(disctrict.calculateAvgLevelInDistrict());
 
         }
 
