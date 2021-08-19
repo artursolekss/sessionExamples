@@ -2,9 +2,9 @@ using System;
 
 namespace Inheritance
 {
-    class Employee : Person
+    // sealed class Employee : Person/// if the class is defined as sealed, then we can't create any sublcasses of it
+    class Employee : Person// if the keyword sealed is not used, than I can create the subclasses
     {
-
         private double salary;
 
         public double GetSalary()
@@ -31,7 +31,10 @@ namespace Inheritance
             + "\nSalary is " + this.salary;
         }
 
-
+        public override void PrintAvailableCastingClass()
+        {
+            Console.WriteLine("This object can be casted to the variable typed as Person");
+        }
 
     }
 

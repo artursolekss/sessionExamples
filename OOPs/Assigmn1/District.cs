@@ -72,6 +72,7 @@ namespace Assigmn1
 
         public float calculateAvgLevelInDistrict()
         {
+
             int sum = 0;
             foreach (Officer officer in this.officersInDistrict)
             {
@@ -80,6 +81,18 @@ namespace Assigmn1
                 sum += officer.calculatedLevel();
             }
             return (float)sum / (float)this.getNumberOfOfficerInDistrict();
+
+          ///int countOfficersInDistrict = 0;
+            //    foreach (Person person in this.personsInDistrict)
+            // {
+                    //if(!(person is Officer))
+                         //continue; //--skip the current iteration
+
+                   //Officer officer = (Officer) person;
+            //     sum += officer.calculatedLevel();
+            //     countOfficersInDistrict++;
+            // }
+            //  return (float)sum / (float)countOfficersInDistrict);
         }
 
     }

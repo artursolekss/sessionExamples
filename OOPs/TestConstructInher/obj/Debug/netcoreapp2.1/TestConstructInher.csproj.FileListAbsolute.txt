@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\bin\Debug\netcoreapp2.1\TestConstructInher.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\bin\Debug\netcoreapp2.1\TestConstructInher.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\bin\Debug\netcoreapp2.1\TestConstructInher.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\bin\Debug\netcoreapp2.1\TestConstructInher.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\bin\Debug\netcoreapp2.1\TestConstructInher.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\obj\Debug\netcoreapp2.1\TestConstructInher.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\obj\Debug\netcoreapp2.1\TestConstructInher.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\obj\Debug\netcoreapp2.1\TestConstructInher.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\obj\Debug\netcoreapp2.1\TestConstructInher.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\obj\Debug\netcoreapp2.1\TestConstructInher.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OOPs\TestConstructInher\obj\Debug\netcoreapp2.1\TestConstructInher.pdb

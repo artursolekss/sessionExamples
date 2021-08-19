@@ -27,7 +27,27 @@ namespace Inheritance
             Console.WriteLine("The salary of employee is " + employee.GetSalary());
 
 
-            Console.WriteLine(employee);
+
+            Person person = employee;// Object casting - upcasting --- will always work
+            // Console.WriteLine(employee);
+            Console.WriteLine(person);///The logic from ToString method is triggered from the class Employee, not the class Person
+
+            Employee employeObj;
+            if (person is Employee)
+                employeObj = (Employee)person;//down-casting
+
+            // try
+            // {
+
+            Kid kidObj;
+            if (person is Kid)///here we can check, if the the casting can be done 
+                kidObj = (Kid)person;//it will trigger runtime exception InvalidCastException, because we try 
+                                     // to pass the objected reference typed as Employee to the variable typed as Kid
+                                     // }
+                                     // catch (InvalidCastException)
+                                     // {
+                                     //     Console.WriteLine("Invalid casting.");
+                                     // }
         }
     }
 }
