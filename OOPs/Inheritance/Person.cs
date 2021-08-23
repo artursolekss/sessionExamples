@@ -2,7 +2,8 @@ using System;
 
 namespace Inheritance
 {
-    class Person
+    // class Person//ALL THE CLASSES IN C# ARE ACTUALLY INGERITED FROM "OBJECT"
+    abstract class Person
     {
 
         protected string name, surname;
@@ -28,6 +29,14 @@ namespace Inheritance
         {
             Console.WriteLine("This class can't be casted to any other class");
         }
+
+        // public virtual void Play()
+        // {
+        //     Console.WriteLine("The person is playing");
+        // }
+
+//In case we are sure, that the implementation of the method can only be defined in the sub-class (witch is not the abstract class)
+        public abstract void Play();///Abstract methods do not have the implementation
 
         public override string ToString()
         {

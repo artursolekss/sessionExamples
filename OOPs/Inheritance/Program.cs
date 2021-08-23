@@ -26,8 +26,6 @@ namespace Inheritance
 
             Console.WriteLine("The salary of employee is " + employee.GetSalary());
 
-
-
             Person person = employee;// Object casting - upcasting --- will always work
             // Console.WriteLine(employee);
             Console.WriteLine(person);///The logic from ToString method is triggered from the class Employee, not the class Person
@@ -48,6 +46,9 @@ namespace Inheritance
                                      // {
                                      //     Console.WriteLine("Invalid casting.");
                                      // }
+            // Person persoObj = new Person("Johny", "Staar");
+            // persoObj.Play();
+            employee.Play();
         }
     }
 }

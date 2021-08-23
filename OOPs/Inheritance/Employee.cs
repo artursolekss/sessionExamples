@@ -36,6 +36,11 @@ namespace Inheritance
             Console.WriteLine("This object can be casted to the variable typed as Person");
         }
 
+        //Here we ovveride the abstract method
+        public override void Play()
+        {
+            Console.WriteLine("The employee is playing");
+        }
     }
 
 }
