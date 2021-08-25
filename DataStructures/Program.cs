@@ -22,6 +22,9 @@ namespace DataStructures
                 case 1:
                     Assigment1.Start();
                     break;
+                case 2:
+                    Assigment2.Start();
+                    break;
                 default:
                     Console.WriteLine("Such assigment does exist");
                     break;

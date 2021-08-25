@@ -12,6 +12,9 @@ namespace DataStructures
         {
             this.point1 = point1;
             this.point2 = point2;
+
+            this.point1.AddNewEdge(this);
+            this.point2.AddNewEdge(this);
         }
 
         public Vertex GetPoint1()
