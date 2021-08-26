@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\obj\Debug\netcoreapp2.1\AbstractClasses.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\obj\Debug\netcoreapp2.1\AbstractClasses.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\obj\Debug\netcoreapp2.1\AbstractClasses.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\obj\Debug\netcoreapp2.1\AbstractClasses.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\bin\Debug\netcoreapp2.1\AbstractClasses.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\bin\Debug\netcoreapp2.1\AbstractClasses.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\bin\Debug\netcoreapp2.1\AbstractClasses.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\bin\Debug\netcoreapp2.1\AbstractClasses.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\bin\Debug\netcoreapp2.1\AbstractClasses.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\obj\Debug\netcoreapp2.1\AbstractClasses.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClasses\obj\Debug\netcoreapp2.1\AbstractClasses.pdb
