@@ -27,6 +27,11 @@ namespace DataStructures
             return this.point2;
         }
 
+        public override string ToString()
+        {
+            return this.point1 + " - " + this.point2;
+        }
+
     }
 
 }

@@ -24,6 +24,22 @@ namespace DataStructures
             this.edgesInvolved.AddLast(edge);
         }
 
+        public override string ToString()
+        {
+            return this.name;
+        }
+
+        public void PrintAllEdges()
+        {
+            foreach (Edge edge in this.edgesInvolved)
+                Console.WriteLine(edge);
+        }
+
+        public int GetNumberOfTheEdges()
+        {
+            return this.edgesInvolved.Count;
+        }
+
     }
 
 }

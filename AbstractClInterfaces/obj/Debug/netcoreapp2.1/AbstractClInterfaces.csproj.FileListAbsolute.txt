@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\obj\Debug\netcoreapp2.1\AbstractClInterfaces.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\obj\Debug\netcoreapp2.1\AbstractClInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\obj\Debug\netcoreapp2.1\AbstractClInterfaces.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\obj\Debug\netcoreapp2.1\AbstractClInterfaces.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\bin\Debug\netcoreapp2.1\AbstractClInterfaces.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\bin\Debug\netcoreapp2.1\AbstractClInterfaces.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\bin\Debug\netcoreapp2.1\AbstractClInterfaces.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\bin\Debug\netcoreapp2.1\AbstractClInterfaces.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\bin\Debug\netcoreapp2.1\AbstractClInterfaces.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\obj\Debug\netcoreapp2.1\AbstractClInterfaces.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\AbstractClInterfaces\obj\Debug\netcoreapp2.1\AbstractClInterfaces.pdb
