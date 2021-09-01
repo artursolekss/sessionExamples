@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\bin\Debug\netcoreapp2.1\Databases.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\bin\Debug\netcoreapp2.1\Databases.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\bin\Debug\netcoreapp2.1\Databases.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\bin\Debug\netcoreapp2.1\Databases.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\bin\Debug\netcoreapp2.1\Databases.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\obj\Debug\netcoreapp2.1\Databases.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\obj\Debug\netcoreapp2.1\Databases.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\obj\Debug\netcoreapp2.1\Databases.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\obj\Debug\netcoreapp2.1\Databases.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\obj\Debug\netcoreapp2.1\Databases.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Databases\obj\Debug\netcoreapp2.1\Databases.pdb
