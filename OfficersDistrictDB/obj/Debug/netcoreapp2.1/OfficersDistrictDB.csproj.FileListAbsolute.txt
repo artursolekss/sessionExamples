@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\obj\Debug\netcoreapp2.1\OfficersDistrictDB.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\obj\Debug\netcoreapp2.1\OfficersDistrictDB.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\obj\Debug\netcoreapp2.1\OfficersDistrictDB.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\obj\Debug\netcoreapp2.1\OfficersDistrictDB.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\bin\Debug\netcoreapp2.1\OfficersDistrictDB.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\bin\Debug\netcoreapp2.1\OfficersDistrictDB.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\bin\Debug\netcoreapp2.1\OfficersDistrictDB.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\bin\Debug\netcoreapp2.1\OfficersDistrictDB.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\bin\Debug\netcoreapp2.1\OfficersDistrictDB.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\obj\Debug\netcoreapp2.1\OfficersDistrictDB.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDistrictDB\obj\Debug\netcoreapp2.1\OfficersDistrictDB.pdb
