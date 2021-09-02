@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using MySqlConnector;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace OfficersDistrictDB
 {
     class Program
     {
+
         static void Main(string[] args)
         {
 
@@ -22,9 +26,9 @@ namespace OfficersDistrictDB
                     break;
             }
 
-            LinkedList<Disctrict> disctrictsEntered;
+            LinkedList<Disctrict> disctrictsEntered = new LinkedList<Disctrict>();
             if (answer == "Y")
-                disctrictsEntered = EnterDistricts();
+                EnterDistricts(disctrictsEntered);//add one collection into another
 
             answer = "";
             while (true)
@@ -40,15 +44,46 @@ namespace OfficersDistrictDB
                     break;
             }
 
-            LinkedList<Officer> officersEntered;
+            LinkedList<Officer> officersEntered = new LinkedList<Officer>();
             if (answer == "Y")
-                officersEntered = EnterOfficers();
+                EnterOfficers(officersEntered);
+
+            SetEntriesToDatabase(officersEntered, disctrictsEntered);
         }
 
-        static LinkedList<Disctrict> EnterDistricts()
+        static void SetEntriesToDatabase(LinkedList<Officer> officers, LinkedList<Disctrict> districts)
         {
 
-            LinkedList<Disctrict> disctrictsEntered = new LinkedList<Disctrict>();
+            MySqlConnection connection = new MySqlConnection("Data Source=localhost;Database=officersindistrict;User ID=root;");
+            connection.Open();
+
+            // var transaction = connection.BeginTransaction();
+
+            if (districts.Count > 0)
+            {
+                string insertDistrictsSQLQuery = "INSERT INTO district (name,external_id) VALUES (@name,@externalId)";
+                MySqlParameter nameParam = new MySqlParameter("@name", SqlDbType.Text);
+                MySqlParameter extIdParam = new MySqlParameter("@externalId", SqlDbType.Int);
+
+                var command = new MySqlCommand(insertDistrictsSQLQuery, connection);
+                command.Parameters.Add(extIdParam);
+                command.Parameters.Add(nameParam);
+
+                foreach (var district in districts)
+                {
+
+                    command.Parameters[0].Value = district.GetExternalId();
+                    command.Parameters[1].Value = district.GetName();
+
+                    command.Prepare();
+                    command.ExecuteNonQuery();
+                }
+                // transaction.Commit();
+            }
+
+        }
+        static void EnterDistricts(LinkedList<Disctrict> disctrictsEntered)
+        {
             while (true)//In this loop we fill in all the district from console
             {
                 Console.WriteLine("Provide the name of the district:");
@@ -87,13 +122,10 @@ namespace OfficersDistrictDB
                 if (answer.Equals("N"))
                     break;
             }
-            return disctrictsEntered;
         }
 
-        static LinkedList<Officer> EnterOfficers()
+        static void EnterOfficers(LinkedList<Officer> officersEntered)
         {
-
-            LinkedList<Officer> officersEntered = new LinkedList<Officer>();
             while (true)
             {
                 Console.WriteLine("Provide the name of the officer:");
@@ -145,7 +177,6 @@ namespace OfficersDistrictDB
                 if (answer.Equals("N"))
                     break;
             }
-            return officersEntered;
         }
     }
 }
