@@ -10,9 +10,12 @@ namespace OfficersDistrictDB
         private Officer nextOfficer;///the reference to the next officer in the list is stored here
         private string name, surname;
         private int workingDistrictId;
-        public string WorkingDistrictExtId
+        // public string WorkingDistrictExtId
+        // {
+        //     get { return WorkingDistrictExtId; } //<<<--this will result into endless loop
+        public int WorkingDistrictExtId
         {
-            get { return WorkingDistrictExtId; }
+            get { return this.workingDistrictId; }
             set { this.WorkingDistrictExtId = value; }
         }
         private int officerID, crimesSolved;

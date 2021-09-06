@@ -62,6 +62,7 @@ namespace OfficersDistrictDB
             if (districts.Count > 0)
             {
                 string insertDistrictsSQLQuery = "INSERT INTO district (name,external_id) VALUES (@name,@externalId)";
+
                 MySqlParameter nameParam = new MySqlParameter("@name", SqlDbType.Text);
                 MySqlParameter extIdParam = new MySqlParameter("@externalId", SqlDbType.Int);
 
@@ -71,9 +72,37 @@ namespace OfficersDistrictDB
 
                 foreach (var district in districts)
                 {
-
                     command.Parameters[0].Value = district.GetExternalId();
                     command.Parameters[1].Value = district.GetName();
+
+                    command.Prepare();
+                    command.ExecuteNonQuery();
+                }
+                // transaction.Commit();
+            }
+
+            if (officers.Count > 0)
+            {
+                string insertDistrictsSQLQuery = "INSERT INTO officers (name, surname, working_district, crimes_solved)"
+                + "VALUES (@name,@surname,@working_district,@crimes_solved)";
+
+                MySqlParameter nameParam = new MySqlParameter("@name", SqlDbType.Text);
+                MySqlParameter surnameParam = new MySqlParameter("@surname", SqlDbType.Text);
+                MySqlParameter working_districtParam = new MySqlParameter("@working_district", SqlDbType.Int);
+                MySqlParameter crimesSolvedParam = new MySqlParameter("@crimes_solved", SqlDbType.Int);
+
+                var command = new MySqlCommand(insertDistrictsSQLQuery, connection);
+                command.Parameters.Add(nameParam);
+                command.Parameters.Add(surnameParam);
+                command.Parameters.Add(working_districtParam);
+                command.Parameters.Add(crimesSolvedParam);
+
+                foreach (var officer in officers)
+                {
+                    command.Parameters[0].Value = officer.getName();
+                    command.Parameters[1].Value = officer.getSurname();
+                    command.Parameters[2].Value = officer.WorkingDistrictExtId;
+                    command.Parameters[3].Value = officer.getCrimesSolved();
 
                     command.Prepare();
                     command.ExecuteNonQuery();
