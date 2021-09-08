@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\bin\Debug\netcoreapp2.1\FileReadingWriting.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\bin\Debug\netcoreapp2.1\FileReadingWriting.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\bin\Debug\netcoreapp2.1\FileReadingWriting.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\bin\Debug\netcoreapp2.1\FileReadingWriting.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\bin\Debug\netcoreapp2.1\FileReadingWriting.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\obj\Debug\netcoreapp2.1\FileReadingWriting.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\obj\Debug\netcoreapp2.1\FileReadingWriting.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\obj\Debug\netcoreapp2.1\FileReadingWriting.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\obj\Debug\netcoreapp2.1\FileReadingWriting.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\obj\Debug\netcoreapp2.1\FileReadingWriting.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\FileReadingWriting\obj\Debug\netcoreapp2.1\FileReadingWriting.pdb

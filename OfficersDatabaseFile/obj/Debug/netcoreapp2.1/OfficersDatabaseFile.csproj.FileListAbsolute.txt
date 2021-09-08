@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\obj\Debug\netcoreapp2.1\OfficersDatabaseFile.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\obj\Debug\netcoreapp2.1\OfficersDatabaseFile.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\obj\Debug\netcoreapp2.1\OfficersDatabaseFile.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\obj\Debug\netcoreapp2.1\OfficersDatabaseFile.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\bin\Debug\netcoreapp2.1\OfficersDatabaseFile.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\bin\Debug\netcoreapp2.1\OfficersDatabaseFile.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\bin\Debug\netcoreapp2.1\OfficersDatabaseFile.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\bin\Debug\netcoreapp2.1\OfficersDatabaseFile.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\bin\Debug\netcoreapp2.1\OfficersDatabaseFile.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\obj\Debug\netcoreapp2.1\OfficersDatabaseFile.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\OfficersDatabaseFile\obj\Debug\netcoreapp2.1\OfficersDatabaseFile.pdb

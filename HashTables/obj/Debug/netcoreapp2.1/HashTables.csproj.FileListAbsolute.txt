@@ -1,0 +1,11 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\bin\Debug\netcoreapp2.1\HashTables.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\bin\Debug\netcoreapp2.1\HashTables.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\bin\Debug\netcoreapp2.1\HashTables.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\bin\Debug\netcoreapp2.1\HashTables.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\bin\Debug\netcoreapp2.1\HashTables.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\obj\Debug\netcoreapp2.1\HashTables.csprojAssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\obj\Debug\netcoreapp2.1\HashTables.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\obj\Debug\netcoreapp2.1\HashTables.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\obj\Debug\netcoreapp2.1\HashTables.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\obj\Debug\netcoreapp2.1\HashTables.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\HashTables\obj\Debug\netcoreapp2.1\HashTables.pdb
