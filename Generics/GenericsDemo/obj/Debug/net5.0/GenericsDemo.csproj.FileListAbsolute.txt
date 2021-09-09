@@ -1,0 +1,16 @@
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\GenericsDemo.exe
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\GenericsDemo.deps.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\GenericsDemo.runtimeconfig.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\GenericsDemo.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\GenericsDemo.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\ref\GenericsDemo.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\bin\Debug\net5.0\GenericsDemo.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.csproj.AssemblyReference.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.AssemblyInfo.cs
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\ref\GenericsDemo.dll
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.pdb
+C:\Users\Arturs Olekss\Documents\NET_lessons\NET_100h\Practical\Generics\GenericsDemo\obj\Debug\net5.0\GenericsDemo.genruntimeconfig.cache
