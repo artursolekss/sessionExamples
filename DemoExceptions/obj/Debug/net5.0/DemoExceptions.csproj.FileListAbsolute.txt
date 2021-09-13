@@ -1,0 +1,16 @@
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\DemoExceptions.exe
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\DemoExceptions.deps.json
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\DemoExceptions.runtimeconfig.json
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\DemoExceptions.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\DemoExceptions.dll
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\ref\DemoExceptions.dll
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\bin\Debug\net5.0\DemoExceptions.pdb
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.csproj.AssemblyReference.cache
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.AssemblyInfo.cs
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.dll
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\ref\DemoExceptions.dll
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.pdb
+C:\Users\Arturs Olekss\source\repos\DemoExceptions\obj\Debug\net5.0\DemoExceptions.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\LinqExamples.exe
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\LinqExamples.deps.json
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\LinqExamples.runtimeconfig.json
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\LinqExamples.runtimeconfig.dev.json
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\LinqExamples.dll
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\ref\LinqExamples.dll
+C:\Users\Arturs Olekss\source\repos\LinqExamples\bin\Debug\net5.0\LinqExamples.pdb
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.csproj.AssemblyReference.cache
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.AssemblyInfoInputs.cache
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.AssemblyInfo.cs
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.dll
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\ref\LinqExamples.dll
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.pdb
+C:\Users\Arturs Olekss\source\repos\LinqExamples\obj\Debug\net5.0\LinqExamples.genruntimeconfig.cache
