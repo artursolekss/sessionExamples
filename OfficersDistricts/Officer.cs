@@ -17,7 +17,7 @@ namespace OfficersDistricts
         public int WorkingDistrictExtId
         {
             get { return this.workingDistrictId; }
-            set { this.WorkingDistrictExtId = value; }
+            set { this.workingDistrictId = value; }
         }
 
         public string WorkingDistrictName

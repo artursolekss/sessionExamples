@@ -5,14 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OfficersDistricts"
         mc:Ignorable="d"
-        Title="Officers and Districts" Height="450" Width="800">
+        Title="Officers and Districts" Height="450" Width="815">
     <Window.Resources>
         <Style x:Key="GridStyle1" TargetType="{x:Type Grid}"/>
     </Window.Resources>
-    <StackPanel Orientation="Horizontal">
-        <TextBox x:Name="Name" Width="130" Height="40"/>
-        <TextBox x:Name="Surname" Width="130" Height="40"/>
-        <Button Width="50" Height="40" Click="AddOfficer">Add</Button>
-        <ListBox x:Name="officers"/>
-    </StackPanel>
+    <Grid ShowGridLines="True" Margin="0,56,0,142" RenderTransformOrigin="0.502,0.389">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="52*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="17*" ></RowDefinition>
+            <RowDefinition Height="70*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Name" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Height="22" Width="42"/>
+        <TextBlock Text="Surname" Grid.Column="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Height="22" Width="62"/>
+        <TextBlock Text="Working district" Grid.Column="2" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Height="22" Width="112"/>
+        <TextBlock Text="Number of crimes solved" Grid.Column="3" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Height="42" Width="184"/>
+
+        <TextBox Grid.Row="1" x:Name="Name" Grid.Column="0" Margin="35,1,49,10"/>
+        <TextBox Grid.Row="1" x:Name="Surname" Grid.Column="1" Margin="40,1,10,1"/>
+        <ComboBox Grid.Column="2" x:Name="WorkingDistrict" Margin="0,52,0,0" Grid.RowSpan="2" />
+        <TextBox Grid.Row="1" x:Name="CrimesSolved" Grid.Column="3" Margin="66,1,68,1"/>
+        <Button Grid.Column="3" Grid.Row="3" Margin="56,0,10,38" Click="AddOfficer">Add</Button>
+        <ListBox x:Name="officers" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" Margin="0,73,0,-102"/>
+    </Grid>
 </Window>

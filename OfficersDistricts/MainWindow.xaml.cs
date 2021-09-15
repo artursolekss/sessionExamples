@@ -26,12 +26,17 @@ namespace OfficersDistricts
     {
 
         private LinkedList<Officer> officersList = new LinkedList<Officer>();
+        private LinkedList<District> districtList = new LinkedList<District>();
         private MySqlConnection connection = new MySqlConnection("Data Source=localhost;Database=officersindistrict;User ID=root;");
         public MainWindow()
         {
             InitializeComponent();
             this.connection.Open();
             this.setEntriesFromDB();
+            this.connection.Close();
+            this.connection.Open();
+            this.setPossibleDistricts();
+            this.connection.Close();
         }
 
         private void setEntriesFromDB()
@@ -51,9 +56,82 @@ namespace OfficersDistricts
             }
         }
 
+        private void setPossibleDistricts()
+        {
+            string districtsSelect = "SELECT name,external_id FROM district";
+            var command = new MySqlCommand(districtsSelect, this.connection);
+            var districtsReader = command.ExecuteReader();
+            while (districtsReader.Read())
+            {
+                District district = new District(districtsReader.GetString(0), districtsReader.GetInt32(1));
+                this.districtList.AddLast(district);
+                this.WorkingDistrict.Items.Add(district);
+            }
+        }
+
         private void AddOfficer(object sender,RoutedEventArgs e)
         {
-            officers.Items.Add(Name.Text + " " + Surname.Text);
+            this.AddOfficersToDatabase();
+            this.officers.Items.Clear();
+            this.connection.Open();
+            this.setEntriesFromDB();
+        }
+
+        private void AddOfficersToDatabase()
+        {
+            this.connection.Open();
+            string insertDistrictsSQLQuery = "INSERT INTO officers (name, surname, working_district, crimes_solved)"
+                + "VALUES (@name,@surname,@working_district,@crimes_solved)";
+
+            MySqlParameter nameParam = new MySqlParameter("@name", SqlDbType.Text);
+            MySqlParameter surnameParam = new MySqlParameter("@surname", SqlDbType.Text);
+            MySqlParameter working_districtParam = new MySqlParameter("@working_district", SqlDbType.Int);
+            MySqlParameter crimesSolvedParam = new MySqlParameter("@crimes_solved", SqlDbType.Int);
+
+            var command = new MySqlCommand(insertDistrictsSQLQuery, connection);
+            command.Parameters.Add(nameParam);
+            command.Parameters.Add(surnameParam);
+            command.Parameters.Add(working_districtParam);
+            command.Parameters.Add(crimesSolvedParam);
+
+            command.Parameters[0].Value = this.Name.Text;
+            command.Parameters[1].Value = this.Surname.Text;
+            District district = (District) this.WorkingDistrict.SelectedItem;
+            command.Parameters[2].Value = district.WorkingDistrictExtId;
+            command.Parameters[3].Value = Int32.Parse(this.CrimesSolved.Text);
+            command.Prepare();
+            command.ExecuteNonQuery();
+            this.connection.Close();
         }
     }
+}
+
+class District
+{
+    private string name;
+    private int extId;
+
+    public int WorkingDistrictExtId
+    {
+        get { return this.extId; }
+        set { this.extId = value; }
+    }
+
+    public string Name
+    {
+        get { return this.name; }
+        set { this.name = value; }
+    }
+
+    public District(string name,int id)
+    {
+        this.name = name;
+        this.extId = id;
+    }
+
+    public override string ToString()
+    {
+        return this.Name;
+    }
+
 }
